@@ -19,11 +19,11 @@ const config: HardhatUserConfig = {
     coverage: {
       url: "http://127.0.0.1:8555", // Coverage launches its own ganache-cli client
     },
-    rinkeby: {
-      url: "https://eth-rinkeby.alchemyapi.io/v2/4_s8qQ4ie8mKleCqfUfYPTJQUmZ1Ljiz",
-      accounts: [`0x`],
-      gasPrice: 8000000000
-    }
+    //rinkeby: {
+    //  url: "https://eth-rinkeby.alchemyapi.io/v2/4_s8qQ4ie8mKleCqfUfYPTJQUmZ1Ljiz",
+    //  accounts: [`0x`],
+    //  gasPrice: 8000000000
+    //}
   }
 };
 export default config

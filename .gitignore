@@ -1,3 +1,31 @@
-*
-!Solidity\Solidity_Adoption\
+#.gitignore Adoption
+Solidity_Adoption/node_modules/
+Solidity_Adoption/artifacts/
+Solidity_Adoption/typechain/
+Solidity_Adoption/cache/
+#.gitignore Auction
+Solidity_Auction/node_modules/
+Solidity_Auction/artifacts/
+Solidity_Auction/typechain/
+Solidity_Auction/cache/
+#.gitignore Bank
+Solidity_Bank/node_modules/
+Solidity_Bank/artifacts/
+Solidity_Bank/typechain/
+Solidity_Bank/cache/
+#.gitignore Event Ticket
+Solidity_Event_Ticket/node_modules/
+Solidity_Event_Ticket/artifacts/
+Solidity_Event_Ticket/typechain/
+Solidity_Event_Ticket/cache/
+#.gitignore Lottery
+Solidity_Lottery/node_modules/
+Solidity_Lottery/artifacts/
+Solidity_Lottery/typechain/
+Solidity_Lottery/cache/
+#.gitignore Vote
+Solidity_Vote/node_modules/
+Solidity_Vote/artifacts/
+Solidity_Vote/typechain/
+Solidity_Vote/cache/
 

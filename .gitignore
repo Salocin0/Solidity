@@ -1,8 +1,5 @@
-\Solidity_Adoption\artifacts
-\Solidity_Adoption\cache
-\Solidity_Adoption\node_modules
-\Solidity_Adoption\typechain
-
+\Solidity_Adoption\
+\Solidity\Solidity_Adoption\
 \Solidity\Solidity_Auction\artifacts\*
 \Solidity\Solidity_Auction\cache\*
 \Solidity\Solidity_Auction\node_modules\*

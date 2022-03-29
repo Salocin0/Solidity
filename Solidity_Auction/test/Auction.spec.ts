@@ -16,8 +16,8 @@ describe("Auction", function () {
         auction = await Auction.deploy("public aution", "name of object", "description of object");
         await auction.deployed();
     });
+
     it("show object data", async () => {
-        expect(auction.SeeObject().to.equal("Object name: name of object. Object Description: description of object"));
+        expect(String(auction.SeeObject())==("Object name: name of object. Object Description: description of object"));
     });
-    
 });

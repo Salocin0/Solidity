@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.11;
+pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Auction {
+contract Auction{
     
     Auction myAuction;
     
@@ -11,7 +11,7 @@ contract Auction {
     event seeTopbids(address[20] bidders, uint[20] amount);
     event makebid(address client, uint amount);
 
-    struct Auction {
+    struct Auction{
         string name;
         string objectName;
         string objectDescription;
@@ -19,15 +19,15 @@ contract Auction {
     }
 
     constructor(string memory _nameAuction, string memory _nameObject, string memory _descriptionObject) {
-        transferOwnership(payable(msg.sender));
+        //transferOwnership(payable(msg.sender));
         myAuction.name = _nameAuction;
         myAuction.objectName = _nameObject;
         myAuction.objectDescription = _descriptionObject;
     }
 
-    function SeeObject() external view returns(string) {
-        emit seeObject();
-        return "Object name: " + myAuction.objectName + ". Object Description: " + myAuction.objectDescription;
+    function SeeObject() external view returns(string memory) {
+        //emit seeObject(myAuction.objectName, myAuction.objectDescription);
+        return string(abi.encodePacked("Object name: ",myAuction.objectName,". Object Description: ", myAuction.objectDescription));
     }
     
     //ver el objeto

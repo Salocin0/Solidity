@@ -25,7 +25,7 @@
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.4.11",
     "chai": "^4.3.4",
-    "ethereum-waffle": "^3.4.0",
+    "ethereum-waffle": "^4.0.0",
     "ethers": "^5.4.3",
     "hardhat-gas-reporter": "^1.0.4",
     "solidity-coverage": "^0.7.16",

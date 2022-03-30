@@ -28,4 +28,9 @@ Solidity_Vote/node_modules/
 Solidity_Vote/artifacts/
 Solidity_Vote/typechain/
 Solidity_Vote/cache/
+#.gitignore Vote
+Solidity_Empty/node_modules/
+Solidity_Empty/artifacts/
+Solidity_Empty/typechain/
+Solidity_Empty/cache/
 

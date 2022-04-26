@@ -1,2 +1,7 @@
-En este repositorio esta el codigo del contrato, del test, y del script para deployar contratos, ademas esta un informe con el procedimiento.
-Nicolas Durelli 13037
+Contrato que permite la creacion de una votacion de N candidatos
+    # WhiteList opcional
+    # Seleccion de candidato
+    # Cambio de candidato
+    # visualizacion de estado de la votacion
+    # cerrado de la votacion y muestra de resultados
+    # delegacion del voto

@@ -4,4 +4,3 @@ Contrato que permite la creacion de una votacion de N candidatos
     # Cambio de candidato
     # visualizacion de estado de la votacion
     # cerrado de la votacion y muestra de resultados
-    # delegacion del voto

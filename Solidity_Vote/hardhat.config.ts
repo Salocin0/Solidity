@@ -5,9 +5,6 @@ import "solidity-coverage";
 import "hardhat-gas-reporter";
 import { HardhatUserConfig } from "hardhat/config";
 
-  
-  
-
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   solidity: {
@@ -17,13 +14,8 @@ const config: HardhatUserConfig = {
     hardhat: {},
     localhost: {},
     coverage: {
-      url: "http://127.0.0.1:8555", // Coverage launches its own ganache-cli client
+      url: "http://127.0.0.1:8555",
     },
-    //rinkeby: {
-    //  url: "https://eth-rinkeby.alchemyapi.io/v2/4_s8qQ4ie8mKleCqfUfYPTJQUmZ1Ljiz",
-    //  accounts: [`0x`],
-    //  gasPrice: 8000000000
-    //}
   }
 };
 export default config

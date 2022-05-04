@@ -64,11 +64,9 @@ contract Vote is Ownable {
         }  
     }
     //ver estado
-    function stateVote() public {
-        emit stateVotation(string(abi.encodePacked("votation open: ", myVote.openVote, "numbers of votes: ", myVote.totalVotes)));
-        if (myVote.openVote=false){
-            emit stateVotation(seeResult());
-        }
+    function stateVote() public view returns (bool, uint, string memory){
+        //emit stateVotation(string(abi.encodePacked("votation open: ", myVote.openVote, " numbers of votes: ", myVote.totalVotes)));
+        return (myVote.openVote, myVote.totalVotes, seeResult());
     }
     //ver resultados
     function seeResult() public view returns (string memory){

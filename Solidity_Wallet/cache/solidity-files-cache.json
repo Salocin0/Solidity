@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Salocin0\\Documents\\Proyectos\\Solidity\\Solidity_Wallet\\contracts\\wallet.sol": {
+      "lastModificationDate": 1666914053224,
+      "contentHash": "152c6a9513954260b242016d1195adf1",
+      "sourceName": "contracts/wallet.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Wallet"
+      ]
+    }
+  }
+}
